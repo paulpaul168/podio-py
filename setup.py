@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name="pypodio2",
+    name="podio-py",
     version="0.2",
     description="Python wrapper for the Podio API",
     author="Podio",
     author_email="mail@podio.com",
     url="https://github.com/podio/podio-py",
     license="MIT",
-    packages=["pypodio2"],
+    packages=["podio-py"],
     install_requires=["httplib2"],
     tests_require=["nose", "mock", "tox"],
     test_suite="nose.collector",
